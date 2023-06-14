@@ -37,6 +37,49 @@
     </section>
     <!-- header section ends -->
 
+    <!-- home section starts -->
+
+    <section class="home">
+
+        <div class="swiper home-slider">
+
+            <div class="swiper-wrapper">
+
+                <div class="swiper-slide slide" style="background: url(images/home-slide-1.jpg) no-repeat">
+                    <div class="content">
+                        <span>explore, discover, travel</span>
+                        <h3>travel around the world</h3>
+                        <a href="package.php" class="btn">discover more</a>
+                    </div>
+                </div>
+
+                <div class="swiper-slide slide" style="background: url(images/home-slide-2.jpg) no-repeat">
+                    <div class="content">
+                        <span>explore, discover, travel</span>
+                        <h3>discover new places</h3>
+                        <a href="package.php" class="btn">discover more</a>
+                    </div>
+                </div>
+
+                <div class="swiper-slide slide" style="background: url(images/home-slide-3.jpg) no-repeat">
+                    <div class="content">
+                        <span>explore, discover, travel</span>
+                        <h3>make your tour worthwhile</h3>
+                        <a href="package.php" class="btn">discover more</a>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+        </div>
+
+
+    </section>
+
+    <!-- home section ends -->
+
     <!-- services section starts -->
 
     <section class="services">
@@ -46,27 +89,27 @@
         <div class="box-container">
 
             <div class="box">
-                <img src="images/icon-1.png" alt="" style="color: var(--white);">
+                <img src="images/icon-1.png" alt="">
                 <h3>adventure</h3>
             </div>
 
             <div class="box">
-                <img src="images/icon-2.png" alt="">
+                <img src="images/icono2.png" alt="">
                 <h3>tour guide</h3>
             </div>
 
             <div class="box">
-                <img src="images/icon-3.png" alt="">
+                <img src="images/icono-3.png" alt="">
                 <h3>trekking</h3>
             </div>
 
             <div class="box">
-                <img src="images/icon-4.png" alt="">
+                <img src="images/icono-4.png" alt="">
                 <h3>camp fire</h3>
             </div>
 
             <div class="box">
-                <img src="images/icon-5.png" alt="">
+                <img src="images/icono-5.png" alt="">
                 <h3>off road</h3>
             </div>
 
@@ -81,7 +124,77 @@
 
     <!-- services section ends -->
 
+    <!-- home about section starts -->
 
+    <section class="home-about">
+
+        <div class="image">
+            <img src="images/about-img.jpg" alt="">
+        </div>
+
+        <div class="content">
+            <h3>about us</h3>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Praesentium asperiores numquam totam dicta omnis voluptatem magnam eveniet laborum quos commodi adipisci eligendi magni molestias vero, molestiae odit accusantium quidem. A.</p>
+            <a href="about.php" class="btn">read more</a>
+        </div>
+
+    </section>
+
+    <!-- home about section ends -->
+
+    <!-- home packages section starts -->
+
+    <section class="home-packages">
+
+        <h1 class="heading"> our packages</h1>
+
+        <div class="box-container">
+
+            <div class="box">
+                <div class="image">
+                    <img src="images/img1.jpg" alt="">
+                </div>
+
+                <div class="content">
+                    <h3>adventure & tour</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Earum facilis libero quis eaque, fugiat enim soluta ullam voluptas eos aspernatur quasi consectetur aliquam illo, molestiae aperiam corrupti ducimus laboriosam at?</p>
+                    <a href="book.php" class="btn">book now</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="image">
+                    <img src="images/img2.jpg" alt="">
+                </div>
+
+                <div class="content">
+                    <h3>adventure & tour</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Earum facilis libero quis eaque, fugiat enim soluta ullam voluptas eos aspernatur quasi consectetur aliquam illo, molestiae aperiam corrupti ducimus laboriosam at?</p>
+                    <a href="book.php" class="btn">book now</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="image">
+                    <img src="images/img3.jpg" alt="">
+                </div>
+
+                <div class="content">
+                    <h3>adventure & tour</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Earum facilis libero quis eaque, fugiat enim soluta ullam voluptas eos aspernatur quasi consectetur aliquam illo, molestiae aperiam corrupti ducimus laboriosam at?</p>
+                    <a href="book.php" class="btn">book now</a>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="load-more"><a href="package.php" class="btn">load more</a></div>
+
+        <!-- me quede en el min 50:20 -->
+
+    </section>
+
+    <!-- home packages section ends -->
 
 
 
@@ -131,11 +244,23 @@
 
     <!-- footer section ends -->
 
-    <!-- swiper js link -->
+    <!-- Swiper JS -->
     <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+
+    <script>
+        var swiper = new Swiper(".home-slider", {
+            loop: true,
+            navigation: {
+                nextEl: ".swiper-button-next",
+                prevEl: ".swiper-button-prev",
+            },
+        });
+    </script>
+
 
     <!-- custom js file link -->
     <script src="js/script.js"></script>
+
 </body>
 
 </html>
