@@ -6,7 +6,6 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>home</title>
-
     <!-- swiper cdn link -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
 
@@ -14,7 +13,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
 
     <!-- custom css file link -->
-    <link rel="stylesheet" href="css/style.css">k
+    <link rel="stylesheet" href="css/styles.css">
+
 </head>
 
 <body>
@@ -134,7 +134,7 @@
 
         <div class="content">
             <h3>about us</h3>
-            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Praesentium asperiores numquam totam dicta omnis voluptatem magnam eveniet laborum quos commodi adipisci eligendi magni molestias vero, molestiae odit accusantium quidem. A.</p>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Praesentium asperiores numquam totam dicta omnis voluptatem magnam eveniet laborum quos commodi adipisci eligendi magni molestias vero, molestiae odit accusantium quidem.</p>
             <a href="about.php" class="btn">read more</a>
         </div>
 
@@ -146,7 +146,7 @@
 
     <section class="home-packages">
 
-        <h1 class="heading"> our packages</h1>
+        <h1 class="heading-title"> our packages</h1>
 
         <div class="box-container">
 
@@ -157,7 +157,7 @@
 
                 <div class="content">
                     <h3>adventure & tour</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Earum facilis libero quis eaque, fugiat enim soluta ullam voluptas eos aspernatur quasi consectetur aliquam illo, molestiae aperiam corrupti ducimus laboriosam at?</p>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
                     <a href="book.php" class="btn">book now</a>
                 </div>
             </div>
@@ -169,7 +169,7 @@
 
                 <div class="content">
                     <h3>adventure & tour</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Earum facilis libero quis eaque, fugiat enim soluta ullam voluptas eos aspernatur quasi consectetur aliquam illo, molestiae aperiam corrupti ducimus laboriosam at?</p>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
                     <a href="book.php" class="btn">book now</a>
                 </div>
             </div>
@@ -181,7 +181,7 @@
 
                 <div class="content">
                     <h3>adventure & tour</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Earum facilis libero quis eaque, fugiat enim soluta ullam voluptas eos aspernatur quasi consectetur aliquam illo, molestiae aperiam corrupti ducimus laboriosam at?</p>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
                     <a href="book.php" class="btn">book now</a>
                 </div>
             </div>
@@ -190,13 +190,21 @@
 
         <div class="load-more"><a href="package.php" class="btn">load more</a></div>
 
-        <!-- me quede en el min 50:20 -->
-
     </section>
 
     <!-- home packages section ends -->
 
+    <!-- home offer section starts -->
 
+    <section class="home-offer">
+        <div class="content">
+            <h3>up to 50% off</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis modi voluptatum sapiente ad optio quos sequi ullam labore necessitatibus excepturi? Facilis cupiditate totam consequuntur eveniet voluptates cumque molestias aperiam libero.</p>
+            <a href="book.php" class="btn">book now</a>
+        </div>
+    </section>
+
+    <!-- home offer section ends -->
 
     <!-- footer section starts -->
 
