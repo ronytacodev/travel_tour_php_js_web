@@ -46,7 +46,7 @@
     <section class="about">
 
         <div class="image">
-            <img src="images/about-img.jpg" alt="">
+            <img src="images/about-2.jpg" alt="">
         </div>
 
         <div class="content">
