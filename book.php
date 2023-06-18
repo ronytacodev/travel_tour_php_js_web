@@ -41,6 +41,36 @@
         <h1>book now</h1>
     </div>
 
+    <!-- booking section starts -->
+
+    <section class="booking">
+
+        <h1 class="heading-title">book your trip!</h1>
+
+        <form action="book_form.php" method="POST" class="book-form">
+
+            <div class="flex">
+                <div class="unputBox">
+                    <span>name: </span>
+                    <input type="text" placeholder="enter your name" name="name">
+                </div>
+                <div class="unputBox">
+                    <span>email: </span>
+                    <input type="email" placeholder="enter your email" name="email">
+                </div>
+                <div class="unputBox">
+                    <span>email: </span>
+                    <input type="email" placeholder="enter your email" name="email">
+                </div>
+                <!--  me quedé en el min 1:21:48 -->
+            </div>
+
+        </form>
+
+    </section>
+
+    <!-- booking section ends -->
+
 
 
 
@@ -96,7 +126,7 @@
     <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
 
     <!-- custom js file link -->
-    <script src="js/script.js"></script>
+    <script src="js/main.js"></script>
 </body>
 
 </html>
