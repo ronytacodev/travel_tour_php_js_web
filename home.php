@@ -13,7 +13,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
 
     <!-- custom css file link -->
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/styles.css">
 
 </head>
 
@@ -23,7 +23,10 @@
 
     <section class="header">
 
-        <a href="home.php" class="logo">travel.</a>
+        <div>
+            <!-- <a href="home.php" class="logo">travelero</a> -->
+            <a href="home.php"><img src="images/logo_travel.png" alt=""></a>
+        </div>
 
         <nav class="navbar">
             <a href="home.php">home</a>

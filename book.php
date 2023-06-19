@@ -14,7 +14,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
 
     <!-- custom css file link -->
-    <link rel="stylesheet" href="css/style.css">k
+    <link rel="stylesheet" href="css/styles.css">
 </head>
 
 <body>
@@ -23,7 +23,9 @@
 
     <section class="header">
 
-        <a href="home.php" class="logo">travel.</a>
+        <div>
+            <a href="home.php"><img src="images/logo_travel.png" alt=""></a>
+        </div>
 
         <nav class="navbar">
             <a href="home.php">home</a>
@@ -50,20 +52,41 @@
         <form action="book_form.php" method="POST" class="book-form">
 
             <div class="flex">
-                <div class="unputBox">
+                <div class="inputBox">
                     <span>name: </span>
                     <input type="text" placeholder="enter your name" name="name">
                 </div>
-                <div class="unputBox">
+                <div class="inputBox">
                     <span>email: </span>
                     <input type="email" placeholder="enter your email" name="email">
                 </div>
-                <div class="unputBox">
-                    <span>email: </span>
-                    <input type="email" placeholder="enter your email" name="email">
+                <div class="inputBox">
+                    <span>phone: </span>
+                    <input type="number" placeholder="enter your number" name="phone">
                 </div>
-                <!--  me quedé en el min 1:21:48 -->
+                <div class="inputBox">
+                    <span>address: </span>
+                    <input type="text" placeholder="enter your address" name="address">
+                </div>
+                <div class="inputBox">
+                    <span>where to: </span>
+                    <input type="text" placeholder="place you want to visit" name="location">
+                </div>
+                <div class="inputBox">
+                    <span>how many: </span>
+                    <input type="number" placeholder="number of guests" name="guests">
+                </div>
+                <div class="inputBox">
+                    <span>arrivals: </span>
+                    <input type="date" name="arrivals">
+                </div>
+                <div class="inputBox">
+                    <span>leaving: </span>
+                    <input type="date" name="leaving">
+                </div>
             </div>
+
+            <input type="submit" value="submit" class="btn" name="send">
 
         </form>
 
